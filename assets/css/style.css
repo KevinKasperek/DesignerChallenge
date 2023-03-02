@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto';
+    font-size: 12px;
+    background-color: #FFF;
+}
+
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+/* Header*/
+
+
+
+header #elephant {
+    width: 4vw;
+    margin-top: 25px;
+    margin-left: 25px;
+    position: fixed;
+    top: 0;
+}
+
+header .etext {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    padding-left: 12rem;
+    font-family: 'Roboto';
+}
+
+header .etext h1 {
+    font-size: 2rem;
+}
+
+header .etext h4 {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+
+header .cover {
+    width: 52vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+header .coverpeople {
+    width: 52vw;
+    position: absolute;
+}
+
+header #designer {
+    margin-top: 25vh;
+    margin-left: 10vw;
+    font-family: 'Roboto';
+}
+
+header #designer h1 {
+    font-size: 4rem;
+    width: 50%;
+}
+
+header #designer p {
+    width: 50%;
+    margin-top: 8px;
+    font-size: 1.5rem;
+    line-height: 15px;
+    padding-left: 0;
+}
+
+header #designer .rocket {
+    width: 5%;
+}
+
+header #designer a {
+    font-size: 2rem;
+    display: block;
+    color: #ff3571;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10vh;
+}
+
+/* Main */
+
+main .pictures img {
+    margin-top: 30rem;
+    width: 100%;
+    padding-bottom: 10vh;
+}
+
+main .nextidea {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10vh;
+    font-family: 'Roboto';
+
+}
+
+main .nextidea .idea {
+    width: 35%;
+    flex-basis: 200px;
+}
+
+main .nextidea .idea h2 {
+    font-size: 3rem;
+}
+
+main .nextidea .idea h2 img {
+    width: 15%;
+}
+
+main .nextidea p {
+    font-size: 2rem;
+    width: 45%;
+    line-height: 22px;
+    font-size: 1.5rem;
+
+}
+
+
+main h1 {
+    font-size: 3rem;
+    padding-left: 25vw;
+    width: 70%;
+    margin-bottom: 10vh;
+}
+
+/* Section */
+
+main .sectionone {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 30px;
+    font-family: 'Roboto';
+}
+
+.sectionone div {
+    width: 40%;
+    margin-bottom: 10px;
+
+}
+
+.sectionone div img {
+    width: 5vw;
+}
+
+.sectionone h4 {
+    font-size: 3rem;
+    margin-top: 13px;
+    margin-bottom: 3px;
+}
+
+.sectionone p {
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+
+/* Article */
+
+.letsgo h4 {
+    font-family: 'Roboto';
+    margin-top: 10vh;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.letsgo p {
+    font-family: 'Roboto';
+    text-align: center;
+    padding-top: 30px;
+    margin: 0 auto;
+    font-size: 2rem;
+    width: 45%;
+    margin-bottom: 15vh;
+}
+
+/* Step1 */
+
+.step1 {
+    display: flex;
+    justify-content: center;
+    gap: 12rem;
+    margin: 8vh auto;
+}
+
+.step1 img {
+    width: 35%;
+    margin-left: 4rem;
+}
+
+.step1text {
+    font-family: 'Roboto';
+
+}
+
+.step1text h1 {
+    font-size: 7rem;
+    color: rgba(0, 0, 0, 0.15);
+    margin-bottom: 7vh;
+}
+
+.step1text img {
+    width: 7%;
+    margin-left: 0;
+}
+
+.step1text h3 {
+    padding: 15px 0;
+    font-size: 4rem;
+}
+
+.step1text p {
+    font-size: 2rem;
+    width: 85%;
+    line-height: 1.8rem;
+    padding-left: 0;
+}
+
+/* Step2 */
+
+
+.step2 {
+    display: flex;
+    justify-content: center;
+    gap: 12rem;
+    margin: 0 auto;
+
+}
+
+.step2 img {
+    width: 35%;
+    margin-right: 4rem;
+}
+
+.step2text {
+    font-family: 'Roboto';
+    margin-left: 5rem;
+
+}
+
+.step2text h1 {
+    font-size: 7rem;
+    color: rgba(0, 0, 0, 0.15);
+    margin-bottom: 7vh;
+}
+
+.step2text img {
+    width: 7%;
+}
+
+.step2text h3 {
+    padding: 15px 0;
+    font-size: 4rem;
+}
+
+.step2text p {
+    font-size: 2rem;
+    width: 100%;
+    line-height: 1.8rem;
+    padding-left: 0;
+}
+
+/* Step 3 */
+
+.step3 {
+    display: flex;
+    justify-content: center;
+    gap: 12rem;
+    margin: 8vh auto;
+}
+
+.step3 img {
+    width: 35%;
+    margin-left: 4rem;
+}
+
+.step3text {
+    font-family: 'Roboto';
+
+}
+
+.step3text h1 {
+    font-size: 7rem;
+    color: rgba(0, 0, 0, 0.15);
+    margin-bottom: 7vh;
+}
+
+.step3text img {
+    width: 8%;
+    margin-left: 0;
+}
+
+.step3text h3 {
+    padding: 15px 0;
+    font-size: 4rem;
+}
+
+.step3text p {
+    font-size: 2rem;
+    width: 85%;
+    line-height: 1.8rem;
+    padding-left: 0;
+}
+
+/* Step 4 */
+
+.step4 {
+    display: flex;
+    justify-content: center;
+    gap: 12rem;
+    margin: 0 auto;
+
+}
+
+.step4 img {
+    width: 35%;
+    margin-right: 4rem;
+}
+
+.step4text {
+    font-family: 'Roboto';
+    margin-left: 5rem;
+
+}
+
+.step4text h1 {
+    font-size: 7rem;
+    color: rgba(0, 0, 0, 0.15);
+    margin-bottom: 7vh;
+}
+
+.step4text img {
+    width: 7%;
+}
+
+.step4text h3 {
+    padding: 15px 0;
+    font-size: 4rem;
+}
+
+.step4text p {
+    font-size: 2rem;
+    width: 100%;
+    line-height: 1.8rem;
+    padding-left: 0;
+}
+
+/* footer */
+
+#footersub h1 {
+    margin-top: 12vh;
+    text-align: center;
+    font-size: 4rem;
+}
+
+#footersub p {
+    font-size: 2rem;
+    text-align: center;
+    margin: 4vh auto;
+}
+
+#footersub form {
+    text-align: center;
+}
+
+#footersub form input[type="email"] {
+    padding: 10px 100px;
+    border-style: none;
+    box-shadow: 3px 3px 20px #e3e3e3;
+    border-radius: 5px;
+}
+
+#footersub form input[type="submit"] {
+    display: block;
+    margin: 3rem auto;
+    background-color: #ff3571;
+    color: #fff;
+    border-style: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-bottom: 6vh;
+}
+
+#footersub form input[type="submit"]:hover {
+    background-color: #3C30FF;
+}
